@@ -1,0 +1,15 @@
+.footer_wrapper {
+  min-width: 1120px;
+  background-color: #323232; }
+
+.footer {
+  height: 350px;
+  padding: 50px 0; }
+
+.footer_block a {
+  font-style: italic; }
+
+.footer_block a:hover {
+  color: #0066a6; }
+
+/*# sourceMappingURL=footer.css.map */

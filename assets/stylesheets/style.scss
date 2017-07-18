@@ -1,0 +1,116 @@
+@import 'header.scss';
+
+@import 'last_wins.scss';
+
+@import 'navigation.scss';
+
+@import 'footer.scss';
+
+@import 'main_content.scss';
+
+@import 'stats.scss';
+
+@import 'subscribe.scss';
+
+@import 'terms.scss';
+
+@import 'left_modal_menu.scss';
+
+@import 'register.scss';
+
+@import 'library.scss';
+
+@import 'login_screen.scss';
+
+@import 'search_modal.scss';
+
+@import 'loginned.scss';
+
+@import 'buy_page.scss';
+
+@import 'scrollbar.scss';
+
+a{
+	text-decoration: none;
+}
+
+.all_wrapper{
+	padding-top: 110px;
+}
+
+.bg_modal{
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0.5;
+	width: 100%;
+	height: 100vh;
+	z-index: 8;
+	display: none;
+}
+
+.bg_modal_search{
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0.5;
+	width: 100%;
+	height: 100vh;
+	z-index: 6;
+	display: none;
+}
+
+@media (max-width: 1120px){
+	.last_wins{
+		height: 173px;
+	}
+	.last_wins_bg{
+		width: 89px;
+		height: 89px;
+	}
+	.small_g{
+		width: 191px;
+		height: 191px;
+	}
+	.small_g_temporary{
+		width: 191px;
+		height: 191px;
+	}
+	.medium_g{
+		width: 256px;
+		height: 256px;
+	}
+	.medium_g_temporary{
+		width: 256px;
+		height: 256px;
+	}
+	.big_g{
+		width: 386px;
+		height: 386px;
+	}
+	.main_content{
+		width: 776px;
+	}
+	.diamond_img{
+		width: 67px;
+	}
+	.diamond_img{
+		height: 54px;
+	}
+}
+
+/* SCROLLBAR */
+
+@mixin scrollbars($size, $foreground-color, $background-color) {
+  ::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+  }
+  ::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+  }
+  ::-webkit-scrollbar-track {
+      background: $background-color;
+  }
+  body {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+@include scrollbars(12px, #0274ba, white);

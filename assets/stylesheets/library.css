@@ -1,0 +1,327 @@
+@charset "UTF-8";
+/* FLEXBOX */
+.fl, .rac, .rec, .rsc, .cac, .c {
+  display: flex; }
+
+/* ╤Б╤В╨░╨╜╨╛╨▓╨╕╤В╤Б╤П ╨│╨╕╨▒╨║╨╕╨╝, ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В╤Б╤П ╨▓ ╨╗╨╕╨╜╨╕╤О */
+.col, .cac, .c {
+  flex-direction: column; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В╤Б╤П ╨▓ ╨║╨╛╨╗╨╛╨╜╨║╤Г */
+.row {
+  flex-direction: row; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В╤Б╤П ╨▓ ╨╗╨╕╨╜╨╕╤О */
+.wrap {
+  flex-wrap: wrap; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В╤Б╤П ╨╜╨░ ╨┤╤А╤Г╨│╨╛╨╣ ╤А╤П╨┤ */
+.r_wrap {
+  flex-wrap: wrap-reverse; }
+
+.r_col {
+  flex-direction: column-reverse; }
+
+.r_rev {
+  flex-direction: row-reverse; }
+
+/* JUSTIFY-CONTENT */
+.jc_s, .rsc {
+  justify-content: flex-start; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В ╨║╨╛╨╜╤В╨╡╨╜╤В ╨┐╨╛ ╨╜╨░╤З╨░╨╗╤Г ╤Б╨╗╨╡╨▓╨░ */
+.jc_c {
+  justify-content: center; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В ╨║╨╛╨╜╤В╨╡╨╜╤В ╨┐╨╛ ╤Ж╨╡╨╜╤В╤А╤Г */
+.jc_e, .rec {
+  justify-content: flex-end; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В ╨║╨╛╨╜╤В╨╡╨╜╤В ╨▓ ╨║╨╛╨╜╤Ж╨╡ ╨▓╨┐╤А╨░╨▓╨░ */
+.jc_b {
+  justify-content: space-between; }
+
+/* ╨╖╨░╨╜╨╕╨╝╨░╨╡╤В ╨┐╤А╨╛╤Б╤В╤А╨░╨╜╤Б╤В╨▓╨╛ ╨▓ ╨┐╨╗╨╛╤В╨╜╤Г╤О ╨┐╨╛ ╨║╤А╨░╤П╨╝ ╨╕ ╤А╨░╤Б╤В╨╛╤П╨╜╨╕╨╡ ╨╝╨╕╨╡╨╢╨┤╤Г ╨╜╨╕╨╝╨╕ */
+.jc_a, .rac, .cac {
+  justify-content: space-around; }
+
+/* ╨╖╨░╨╜╨╕╨╝╨░╨╡╤В ╨┐╤А╨╛╤Б╤В╤А╨░╨╜╤Б╤В╨▓╨╛ ╤Б ╨╛╤В╤Б╤В╤Г╨┐╨░╨╝╨╕ ╨╛╤В ╨║╤А╨░╨╡╨▓ */
+/* ALIGN-ITEMS */
+.at_s {
+  align-items: flex-start; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В ╨┐╨╛ ╨╜╨░╤З╨░╨╗╤Г */
+.at_e {
+  align-items: flex-end; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В ╤Б ╨║╨╛╨╜╤Ж╨░ */
+.at_c, .rac, .rec, .rsc, .cac {
+  align-items: center; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В╤Б╤П ╨▓ ╤Ж╨╡╨╜╤В╤А╨╡ */
+.at_b {
+  align-items: baseline; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В╤Б╤П ╨┐╨╛ ╨▒╨░╨╖╨╛╨▓╨╛╨╣ ╨╛╤Б╨╕ */
+/* ALIGN-SELF */
+.as_s {
+  align-self: flex-start; }
+
+/* ╨▓╤Л╤Б╤В╤А╨░╨╕╨▓╨░╨╡╤В ╨╛╤В╨┤╨╡╨╗╤М╨╜╤Л╨╣ ╤Н╨╗╨╡╨╝╨╡╨╜╤В */
+.as_e {
+  align-self: flex-end; }
+
+/**/
+.as_c {
+  align-self: center; }
+
+/**/
+.as_b {
+  align-self: baseline; }
+
+/**/
+/* FLEX-GROW */
+.fg_1 {
+  flex-grow: 1; }
+
+.fg_2 {
+  flex-grow: 2; }
+
+.fg_3 {
+  flex-grow: 3; }
+
+.fg_4 {
+  flex-grow: 4; }
+
+.fg_5 {
+  flex-grow: 5; }
+
+.fg_6 {
+  flex-grow: 6; }
+
+.fg_7 {
+  flex-grow: 7; }
+
+.fg_8 {
+  flex-grow: 8; }
+
+.fg_9 {
+  flex-grow: 9; }
+
+.fg_10 {
+  flex-grow: 10; }
+
+/* FLEX-SHRINK */
+.fs_1 {
+  flex-shrink: 1; }
+
+.fs_2 {
+  flex-shrink: 2; }
+
+.fs_3 {
+  flex-shrink: 3; }
+
+.fs_4 {
+  flex-shrink: 4; }
+
+.fs_5 {
+  flex-shrink: 5; }
+
+.fs_6 {
+  flex-shrink: 6; }
+
+.fs_7 {
+  flex-shrink: 7; }
+
+.fs_8 {
+  flex-shrink: 8; }
+
+.fs_9 {
+  flex-shrink: 9; }
+
+.fs_10 {
+  flex-shrink: 10; }
+
+/* POSITION */
+.ab {
+  position: absolute; }
+
+.rt {
+  position: relative; }
+
+/* ╨╛╤В╨╜╨╛╤Б╨╕╤В╨╡╨╗╤М╨╜╨╛╨╡ */
+.fx {
+  position: fixed; }
+
+.no {
+  display: none; }
+
+/* ╤Б╨║╤А╤Л╤В╤М */
+/* OTHER */
+.auto {
+  margin: 0 auto; }
+
+.min_1152 {
+  min-width: 1152px; }
+
+.pointer {
+  cursor: pointer; }
+
+.def {
+  cursor: default; }
+
+.l_edge {
+  top: 0;
+  left: 0; }
+
+.r_edge {
+  top: 0;
+  right: 0; }
+
+.align {
+  text-align: center; }
+
+/* ╤В╨╡╨║╤Б╤В ╨▓╤Л╤А╨╛╨▓╨╜╤П╨╗╤Б╤П ╨┐╨╛ ╤Ж╨╡╨╜╤В╤А╤Г */
+.krujok {
+  border-radius: 999px; }
+
+/* ╨┤╨╡╨╗╨░╨╡╤В ╨║╤А╤Г╨╢╨╛╨║ */
+.bold {
+  font-weight: bold; }
+
+/* ╨╢╨╕╤А╨╜╤Л╨╣ ╤И╤А╨╕╤Д╤В */
+.white {
+  color: white; }
+
+.t_t {
+  text-transform: uppercase; }
+
+/* ╨▓╤Б╨╡ ╨┤╨╡╨╗╨░╨╡╤В ╨╖╨░╨│╨╗╨░╨▓╨╜╤Л╨╝╨╕ ╨▒╤Г╨║╨▓╨░╨╝╨╕ */
+.o {
+  outline: 1px red solid; }
+
+/* Z-INDEX */
+.z_1 {
+  z-index: 1; }
+
+/* ╨┐╤А╨╕╨╛╤А╨╕╤В╨╡╤В ╨┐╨╛ ╨╖╨╜╨░╤З╨╡╨╜╨╕╤П╨╝ ╨┐╨╛ ╨╛╤Б╨╕ z ╤З╨╡╨╝ ╨▓╤Л╤И╨╡ ╤В╨╡╨╝ ╨▒╨╛╨╗╤М╤И╨╡ ╨┐╤А╨╕╨╛╤А╨╕╤В╨╡╤В */
+.z_2 {
+  z-index: 2; }
+
+.z_3 {
+  z-index: 3; }
+
+.z_4 {
+  z-index: 4; }
+
+.z_5 {
+  z-index: 5; }
+
+.z_6 {
+  z-index: 6; }
+
+.z_7 {
+  z-index: 7; }
+
+.z_8 {
+  z-index: 8; }
+
+.z_9 {
+  z-index: 9; }
+
+.z_10 {
+  z-index: 10; }
+
+/* PADDING */
+.p_5 {
+  padding: 5px; }
+
+/* ╨╛╤В╤Б╤В╤Г╨┐ ╨▓╨╛ ╨▓╨╜╤Г╤В╤А╤М */
+.p_10 {
+  padding: 10px; }
+
+.p_15 {
+  padding: 15px; }
+
+.p_20 {
+  padding: 20px; }
+
+.p_25 {
+  padding: 25px; }
+
+.p_30 {
+  padding: 30px; }
+
+.p_35 {
+  padding: 35px; }
+
+/* WIDTH */
+.w_5 {
+  width: 5%; }
+
+/* ╤И╨╕╤А╨╕╨╜╨░ */
+.w_10 {
+  width: 10%; }
+
+.w_15 {
+  width: 15%; }
+
+.w_20 {
+  width: 20%; }
+
+.w_25 {
+  width: 25%; }
+
+.w_30 {
+  width: 30%; }
+
+.w_35 {
+  width: 35%; }
+
+.w_40 {
+  width: 40%; }
+
+.w_45 {
+  width: 45%; }
+
+.w_50 {
+  width: 50%; }
+
+.w_55 {
+  width: 55%; }
+
+.w_60 {
+  width: 60%; }
+
+.w_65 {
+  width: 65%; }
+
+.w_70 {
+  width: 70%; }
+
+.w_75 {
+  width: 75%; }
+
+.w_80 {
+  width: 80%; }
+
+.w_85 {
+  width: 85%; }
+
+.w_90 {
+  width: 90%; }
+
+.w_95 {
+  width: 95%; }
+
+.w_100 {
+  width: 100%; }
+
+/* FLEXBOXES */
+.sel {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/*# sourceMappingURL=library.css.map */

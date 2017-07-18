@@ -1,0 +1,109 @@
+.last_wins{
+	min-width: 1120px;
+	height: 200px; 
+}
+
+.diamond_wrapper{
+	width: 7%;
+	background-color: #fafbfb;
+}
+
+.diamond_img{
+	background-image: url(../images/last_wins/grey_diamond.png);
+	width: 67px;
+	height: 54px;
+	margin-top: 15px;
+	background-size: cover;
+   	&:hover{
+				background-image: url(../images/last_wins/hover_diamond.png);
+				cursor: pointer;
+		}
+}
+
+.lw_wr{
+	border-bottom: 1px #cccccc solid;
+	border-top: 1px #f3f3f3 solid;
+	width: 93%;
+}
+
+.last_wins_blocks{
+	width: 9%; 
+	height: 200px;
+	&:hover .last_wins_bg{
+		margin-bottom: 30px;
+	}
+	&:hover .last_wins_text{
+		opacity: 1;
+		bottom: 10%;
+	}
+	&:hover .last_wins_fill{
+		top: -50%;
+		left: -50%;
+		width: 200%;
+		height: 200%;
+	}
+}
+
+.last_wins_bg{
+	background-repeat: no-repeat;
+	border: 4px blue solid;
+	background-size: cover;
+	height: 115px;
+	width: 115px;
+	transition: margin-bottom .6s;
+}
+
+.last_wins_text{
+	bottom: 5%;
+	left: 5%;
+	width: 90%;
+	font-size: 12px;
+	cursor: default;
+	opacity: 0;
+	font-weight: bold;
+	transition: all .6s;
+}
+
+.last_wins_fill_wrapper{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 999px;
+	overflow: hidden;
+}
+
+.last_wins_fill{
+  border-radius: 999px;
+  background: #000;
+  opacity: 0.3;
+	width: 0;
+	height: 0;
+  top: 50%;
+  left: 50%;
+	transition: all .8s;
+}
+
+.lw_1{
+	background-image: url(../images/last_wins/last_wins.png);
+}
+
+.lw_2{
+	background-image: url(../images/last_wins/last_wins_1.png);
+}
+
+.lw_3{
+	background-image: url(../images/last_wins/last_wins_2.png);
+}
+
+@media(max-width: 1120px){
+	.last_wins_text{
+		font-size: 10px;
+	}
+}
+
+@media(min-width: 1920px){
+	.last_wins_text{
+		font-size: 12px;
+	}
+}

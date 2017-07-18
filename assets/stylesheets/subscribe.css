@@ -1,0 +1,38 @@
+.subscribe_wrapper {
+  min-width: 1120px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.subscribe_box {
+  height: 300px;
+  padding: 100px 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-image: url(../images/subscribe/subscribe.jpg); }
+
+.subscribe_box_border {
+  height: 1px;
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px grey;
+  background-color: #ebe6e2; }
+
+.subscribe_box_text {
+  color: #bebec0;
+  width: 60%; }
+
+.subscribe_box_form_text input {
+  color: #bebec0;
+  background: transparent;
+  border: 1px #f2f2f2 outset; }
+
+.subscribe_box_form_btn input {
+  font-size: 20px;
+  background: transparent;
+  border: 1px #f2f2f2 outset;
+  padding: 18px;
+  margin-left: 5px; }
+
+/*# sourceMappingURL=subscribe.css.map */

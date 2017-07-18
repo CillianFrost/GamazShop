@@ -1,0 +1,894 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="assets/stylesheets/normalize.css">
+<link rel="stylesheet" href="assets/stylesheets/style.css">
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/js.js"></script>
+<title>Gamez Shop</title>
+</head>
+
+<body>
+	
+	<div class='left_modal_menu fx fl col no z_9'>
+		<div class='menu_block fl jc_b'>
+			<div class='menu_logo_wrapper rec'>
+				<img class='menu_logo sel pointer' src='assets\images\header\nav_but.png'>
+			</div>
+			<div class='menu_menu_wrapper bold fl at_c jc_s'>
+				<div class='menu_menu'>Menu</div>
+			</div>
+			<div class='arrow sel fl jc_a at_c pointer'>
+				<img src='assets\images\left_panel\arrow.png'>
+			</div>
+		</div>
+		<div class='menu_title_wrapper rac w_45'>
+			<div class='menu_title bold'> 
+				Site navigation
+			</div>
+		</div>
+		<div class='nav_list fl col jc_a'>
+			<div class='nav_link_home fl'>
+				<div class='nav_icon rac'>
+					<div class='menu_home_disable'></div>
+				</div>
+				<div class='nav_link_text_wrapper fl rac'>
+					<div class='nav_link_text def'>
+						Home
+					</div>
+				</div>
+			</div>
+			<a href=''>
+				<div class='nav_link_about fl'>
+					<div class='nav_icon rac'>
+						<div class='menu_about'></div>
+					</div>
+					<div class='nav_link_text_wrapper fl rac'>
+						<div class='nav_link_text'>
+							About Us
+						</div>
+					</div>
+				</div>
+			</a>	
+			<a href=''>	
+				<div class='nav_link_faq fl'>
+					<div class='nav_icon rac'>
+						<div class='menu_faq'></div>
+					</div>
+					<div class='nav_link_text_wrapper fl rac'>
+						<div class='nav_link_text'>
+							F.A.Q.
+						</div>
+					</div>
+				</div>
+			</a>	
+			<a href=''>	
+				<div class='nav_link_guarantee fl'>
+					<div class='nav_icon rac'>
+						<div class='menu_guar'></div>
+					</div>
+					<div class='nav_link_text_wrapper fl rac'>
+						<div class='nav_link_text'>
+							Guarantee
+						</div>
+					</div>
+				</div>
+			</a>	
+			<a href=''>	
+				<div class='nav_link_nato fl'>
+					<div class='nav_icon rac'>
+						<div class='menu_nato'></div>
+					</div>
+					<div class='nav_link_text_wrapper fl rac'>
+						<div class='nav_link_text'>
+							About Nato
+						</div>
+					</div>
+				</div>
+			</a>	
+		</div>
+		<div class='menu_title_wrapper rac w_75'>
+			<div class='menu_title bold'> 
+				Personal profile navigation
+			</div>
+		</div>
+		<div class='nav_list_2 fl col jc_a no'>
+			<a href=''>
+				<div class='nav_link fl'>
+					<div class='nav_icon rac'>
+						<div class='menu_dash'></div>
+					</div>
+					<div class='nav_link_text_wrapper fl rac'>
+						<div class='nav_link_text'>
+							Dashboard
+						</div>
+					</div>
+				</div>
+			</a>	
+			<a href=''>					
+				<div class='nav_link fl'>
+					<div class='nav_icon rac'>
+						<div class='menu_edit'></div>
+					</div>
+					<div class='nav_link_text_wrapper fl rac'>
+						<div class='nav_link_text'>
+							Edit personal information
+						</div>
+					</div>
+				</div>
+			</a>
+			
+			<div class='nav_link fl'>
+				<a href='' class='security_link fl at_c w_100'>
+					<div class='rac w_55'>
+						<div class='menu_sec'></div>
+					</div>
+					<div class='fl at_c jc_s w_70'>
+						<div class='security'>
+							Security
+						</div>
+					</div>
+				</a>
+				<div class='sec_radio_wrapper rac'>
+					<div class='sec_radio pointer' id='check_sec'></div>
+				</div>
+			</div>
+			<a href=''>
+				<div class='nav_link fl'>
+					<div class='nav_icon rac'>
+						<div class='menu_trans'></div>
+					</div>
+					<div class='nav_link_text_wrapper fl rac'>
+						<div class='nav_link_text'>
+							Transaction history
+						</div>
+					</div>
+				</div>
+			</a>		
+		</div>
+		<div class='left_modal_menu_sign_in w_35 rac'>
+			<div class='left_modal_menu_sign_in_link bold pointer'>
+				Sign in
+			</div>
+		</div>
+		<div class='menu_line'></div>
+		<div class='menu_title_wrapper rac w_45'>
+			<div class='menu_title bold'> 
+				Other options
+			</div>
+		</div>
+		<div class='last_menu fl at_c'>
+			<div class='menu_diamond_wrapper w_35 rac'>
+				<div class='menu_diamond'></div>
+			</div>
+			<div class='menu_diamond_text rsc w_40 bold'>
+				<div class=''>
+					Last wins
+				</div>
+			</div>
+			<div class='diamond_radio_wrapper rec'>
+				<div class='bold side_bar_off'>Off</div>
+				<div class='diamond_radio'>
+					<div class='pointer on_off' id='on_off'></div>
+				</div>
+				<div class='bold side_bar_on radio_text_on'>On</div>
+			</div>	
+		</div>
+	
+	</div>
+	
+	<div class='all_wrapper'>
+		
+		<div class='header_wrapper_wrapper l_edge fx rt'>
+			<div class='bg_modal ab l_edge'></div>
+			<div class='bg_modal_search ab l_edge'></div>
+			<div class='header_wrapper'>
+				<header class='header fl auto min_1152 rt'>
+					<div class='ab l_edge w_100 rac true_logo_wrapper'>
+						<a href='index.html' class='true_logo'>
+							<img class='logo_img sel' src='assets\images\header\logo.png'>
+						</a>
+					</div>
+					<div class='menu_btn_block rac z_5'>
+						<img class='menu_btn pointer sel' src='assets\images\header\nav_but.png'>
+					</div>
+					<div class='navigation_form_wrapper fl'>
+						<div class='navigation_form c z_7'>
+							<input type='text' autocomplete='off' class='search' id='search' placeholder='Search in shop...'>
+							<div class='mb_game_wrapper pointer'>
+								<div class='mb_game fl'>
+									<div class='fl at_c mb_icon_wrapper'>
+										<div class='mb_game_icon'></div>
+									</div>
+									<div class='mb_game_name fl at_c'>
+										<div class='mb_game_text'>Overwatch | Random game</div>
+									</div>
+									<div class='mb_game_price fl jc_e at_c'>
+										<div class='mb_game_dollar'>4.99$</div>
+									</div>
+								</div>	
+							</div>
+							<div class='mb_game_wrapper pointer'>
+								<div class='mb_game fl'>
+									<div class='fl at_c mb_icon_wrapper'>
+										<div class='mb_game_icon'></div>
+									</div>
+									<div class='mb_game_name fl at_c'>
+										<div class='mb_game_text'>Overwatch | Random game</div>
+									</div>
+									<div class='mb_game_price fl jc_e at_c'>
+										<div class='mb_game_dollar'>4.99$</div>
+									</div>
+								</div>	
+							</div>
+							<div class='mb_game_wrapper pointer'>
+								<div class='mb_game fl'>
+									<div class='fl at_c mb_icon_wrapper'>
+										<div class='mb_game_icon'></div>
+									</div>
+									<div class='mb_game_name fl at_c'>
+										<div class='mb_game_text'>Overwatch | Random game</div>
+									</div>
+									<div class='mb_game_price fl jc_e at_c'>
+										<div class='mb_game_dollar'>4.99$</div>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>	
+					<div class='logo'>
+						
+					</div>
+					<div class='social_wrapper fl at_c jc_e z_5' id='social_wrapper'>
+						<div class='header_social bold fl' id='header_social'>
+							<div class='login_header pointer' id='login_header'>Login</div>
+							<div class='register_header pointer' id='register_header'>Register</div>
+						</div>
+					</div>
+					<div class='loggined_header ab no z_5' id='loggined_header'>
+						<div class='loggined_content'>	
+							<div class='loggined_numbers fl jc_b white bold'>
+								<div class='first_loggined_numbers'>
+									3.5%
+								</div>
+								<div class='second_loggined_numbers'>
+									2
+								</div>
+								<div class='third_loggined_numbers fl'>
+							
+									<div class='third_loggined_numbers_balance'>
+										12.65$
+									</div>
+									<div class='third_loggined_numbers_plus'>
+										+
+									</div>
+								</div>
+							</div>	
+								
+							<div class='loggined_nickname'>
+								Kalev
+							</div>
+							<div class='loggined_avatar_wrapper'>
+								<div class='loggined_avatar'>
+								
+								</div>
+							</div>
+							<div class='loggined_dots_wrapper'>
+								<div class='loggined_dots'>
+								</div>
+							</div>
+							<div class='loggined_balance' id='loggined_balance'>
+								<div class='loggined_balance_text'>
+									Balance
+									<div class='loggined_balance_triangle'></div>
+								</div>
+							</div>
+							<div class='loggined_view' id='loggined_view'>
+								<div class='loggined_view_menu'>
+									<div class='loggined_view_menu_profile'>
+										View profile
+									</div>
+									<div class='loggined_view_menu_logout' id='loggined_view_menu_logout'>
+										Log Out
+									</div>
+								</div>
+								<div class='loggined_view_triange'></div>
+							</div>
+							
+						</div>
+					</div>
+					<div class='login_screen fl ab no z_5' id='login_screen'>
+						<div class='login_screen_social fl col jc_a at_c'>
+							<div class='social_gplus'></div>
+							<div class='social_twitter'></div>
+							<div class='social_fb'></div>
+						</div>
+						<div class='login_screen_line_wrapper fl jc_a at_c'>
+							<div class='login_screen_line'></div>
+						</div>
+						<div class='login_screen_form fl col jc_a'>
+							<div class='fl jc_a at_c'>
+								<div class='social_name'></div>
+								<div class='login_screen_login_form_wrapper fl jc_a at_c'>
+									<input type='text' placeholder='Enter your name...' class='login_screen_login_form'>
+								</div>
+							</div>
+							<div class='fl jc_a at_c'>
+								<div class='social_password'></div>
+								<div class='login_screen_password_form_wrapper fl jc_a at_c'>
+									<input type='password' placeholder='Enter your password...' class='login_screen_password_form'>
+								</div>
+							</div>
+							<div class='login_screen_forgot fl jc_a at_c'>
+								<div class='i_forgot bold'>
+									<a href=''>I forgot my password</a>
+								</div>
+							</div>
+						</div>
+						<div class='social_login_out fl jc_e'>
+							<div class='social_out pointer' id='social_in'></div>
+						</div>
+								
+					</div>
+					
+					<div class='register ab no z_5' id='register'>
+						<div class='register_screen c'>
+							<div class='register_screen_form c jc_a'>
+								<div class='fl'>
+									<div class='rac w_15'>
+										<div class='register_screen_name'></div>
+									</div>
+									<div class='rsc w_85'>
+										<div class='w_90'>
+											<input class='p_5 w_100 register_screen_forms' type='text' placeholder='Enter your name...'>
+										</div>
+									</div>
+								</div>
+								<div class='fl'>
+									<div class='rac w_15'>
+										<div class='register_screen_mail'></div>
+									</div>
+									<div class='rsc w_85'>
+										<div class='w_90'>
+											<input class='p_5 w_100 register_screen_forms' type='email' placeholder='Enter your name...'>
+										</div>
+									</div>
+								</div>
+								<div class='fl'>
+									<div class='rac w_15'>
+										<div class='register_screen_password'></div>
+									</div>
+									<div class='rsc w_85'>
+										<div class='w_90'>
+											<input class='p_5 w_100 register_screen_forms' type='password' placeholder='Enter your name...'>
+										</div>
+									</div>
+								</div>
+								<div class='fl'>
+									<div class='rac w_15'>
+										<div class='register_screen_password'></div>
+									</div>
+									<div class='rsc w_85'>
+										<div class='w_90'>
+											<input class='p_5 w_100 register_screen_forms' type='password' placeholder='Enter your name...'>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							<div class='register_button rac as_c'>
+								<div class=''>
+									<button class='register_btn pointer'>Register</button>
+								</div>
+							</div>
+							<div class='as_c rac w_80'>
+								<div class='rac w_40'>
+									<div class=''>Login with:</div>
+								</div>
+								<div class='rac w_60'>
+									<a href=''><div class='register_screen_google'></div></a>
+									<a href=''><div class='register_screen_twitter'></div></a>
+									<a href=''><div class='register_screen_facebook'></div></a>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+				</header>
+			</div>
+		</div>
+			
+		<div class='last_wins_wrapper'>
+			<div class='last_wins fl'>
+				<div class='diamond_wrapper fl jc_a at_c'>
+					<div class=''>
+						<div class='diamond_img sel'></div>
+					</div>
+				</div>	
+				<div class='lw_wr fl jc_a at_c'>
+					<div class='last_wins_blocks fl jc_a at_c rt'>
+						<div class='winners_wrapper fl jc_a at_c'>
+							<div class='last_wins_bg lw_1 krujok sel rt'>
+								<div class='last_wins_fill_wrapper ab rt'>
+									<div class='last_wins_fill ab'></div>
+								</div>
+							</div>	
+						</div>
+						<div class='last_wins_text ab c at_c'>
+							<div class='align'>
+								john117@yandex.ru
+							</div>
+						</div>
+					</div>
+					<div class='last_wins_blocks fl jc_a at_c rt'>
+						<div class='winners_wrapper fl jc_a at_c'>
+							<div class='last_wins_bg lw_3 krujok sel rt'>
+								<div class='last_wins_fill_wrapper ab rt'>
+									<div class='last_wins_fill ab'></div>
+								</div>
+							</div>	
+						</div>
+						<div class='last_wins_text ab c at_c'>
+							<div class='align'>
+								jcdenton@yandex.ru
+							</div>	
+						</div>
+					</div>
+					<div class='last_wins_blocks fl jc_a at_c rt'>
+						<div class='winners_wrapper fl jc_a at_c'>
+							<div class='last_wins_bg lw_1 krujok sel rt'>
+								<div class='last_wins_fill_wrapper ab rt'>
+									<div class='last_wins_fill ab'></div>
+								</div>
+							</div>	
+						</div>
+						<div class='last_wins_text ab c at_c'>
+							<div class='align'>
+								slavakpss@yandex.ru
+							</div>
+						</div>
+					</div>
+					<div class='last_wins_blocks fl jc_a at_c rt'>
+						<div class='winners_wrapper fl jc_a at_c'>
+							<div class='last_wins_bg lw_3 krujok sel rt'>
+								<div class='last_wins_fill_wrapper ab rt'>
+									<div class='last_wins_fill ab'></div>
+								</div>
+							</div>	
+						</div>
+						<div class='last_wins_text ab c at_c'>
+							<div class='align'>
+								zamay@yandex.ru
+							</div>
+						</div>
+					</div>
+					<div class='last_wins_blocks fl jc_a at_c rt'>
+						<div class='winners_wrapper fl jc_a at_c'>
+							<div class='last_wins_bg lw_2 krujok sel rt'>
+								<div class='last_wins_fill_wrapper ab rt'>
+									<div class='last_wins_fill ab'></div>
+								</div>
+							</div>	
+						</div>
+						<div class='last_wins_text ab c at_c'>
+							<div class='align'>
+								pinkman@yandex.ru
+							</div>
+						</div>
+					</div>
+					<div class='last_wins_blocks fl jc_a at_c rt'>
+						<div class='winners_wrapper fl jc_a at_c'>
+							<div class='last_wins_bg lw_3 krujok sel rt'>
+								<div class='last_wins_fill_wrapper ab rt'>
+									<div class='last_wins_fill ab'></div>
+								</div>
+							</div>	
+						</div>
+						<div class='last_wins_text ab c at_c'>
+							<div class='align'>
+								navalniy@yandex.ru
+							</div>
+						</div>
+					</div>
+					<div class='last_wins_blocks fl jc_a at_c rt'>
+						<div class='winners_wrapper fl jc_a at_c'>
+							<div class='last_wins_bg lw_2 krujok sel rt'>
+								<div class='last_wins_fill_wrapper ab rt'>
+									<div class='last_wins_fill ab'></div>
+								</div>
+							</div>	
+						</div>
+						<div class='last_wins_text ab c at_c'>
+							<div class='align'>
+								belkin@yandex.ru
+							</div>
+						</div>
+					</div>
+					<div class='last_wins_blocks fl jc_a at_c rt'>
+						<div class='winners_wrapper fl jc_a at_c'>
+							<div class='last_wins_bg lw_1 krujok sel rt'>
+								<div class='last_wins_fill_wrapper ab rt'>
+									<div class='last_wins_fill ab'></div>
+								</div>
+							</div>	
+						</div>
+						<div class='last_wins_text ab c at_c'>
+							<div class='align'>
+								lapidus@yandex.ru
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		
+		<div class='navigation_site_wrapper w_100 cac'>
+			<div class='navigation_site c bold t_t jc_a at_c'>
+				<div class=''>
+					<a class='link' href='' >All</a>
+						/
+					<a class='link' href='' >Random </a>
+						/
+					<a class='link' href='' >Games</a>
+				</div>
+			</div>
+		</div>	
+		
+		<div class='main_content_wrapper fl jc_c'>
+			<div class='main_content sel fl col'>
+				<div class='first_games_block fl row jc_b'>
+					<div class='c jc_b'>
+						<div class='main_game small_g fl rt pointer' id='small_g_1'>
+							<div class='main_game_fill_wrapper ab l_edge rt'>
+								<div class='main_game_fill ab'></div>
+							</div>
+							<div class='game_text_wrapper rac ab l_edge'>
+								<div class='game_text'>
+									Witcher 3: Wild Hunt
+								</div>
+							</div>
+							<div class='game_price game_price_small ab' id='game_price_small_1'>
+								5.99$
+							</div>
+						</div>
+						<div class='main_game small_g fl rt pointer' id='small_g_2'>
+							<div class='main_game_fill_wrapper ab l_edge rt'>
+								<div class='main_game_fill ab'></div>
+							</div>
+							<div class='game_text_wrapper rac ab l_edge'>
+								<div class='game_text'>
+									Witcher 3: Wild Hunt
+								</div>
+							</div>
+							<div class='game_price game_price_small ab' id='game_price_small_2'>
+								5.99$
+							</div>
+						</div>
+					</div>
+					<div class='main_game big_g fl rt pointer' id='big_g_1'>
+						<div class='main_game_fill_wrapper ab l_edge rt'>
+							<div class='main_game_fill ab'></div>
+						</div>
+						<div class='game_text_wrapper rac ab l_edge'>
+							<div class='game_text'>
+								The Horadric Cube is a needed quest item in Act 2 and 3, as you must put together a number of quest items into a new item in able to finish the acts. The Cube's functions go well beyond those two quests, though.
+							</div>
+						</div>
+						<div class='game_price game_price_big' id='game_price_big_1'>
+							39.99$
+						</div>
+					</div>
+					<div class='c rt jc_b'>
+						<div class='main_game small_g_temporary fl rt pointer' id='small_g_3'>
+							<div class='main_game_fill_wrapper ab l_edge rt'>
+								<div class='main_game_fill ab'></div>
+							</div>
+							<div class='game_text_wrapper rac ab l_edge'>
+								<div class='game_text'>
+									Zelda
+								</div>
+							</div>
+							<div class='game_price game_price_small'>
+								5.99$
+							</div>
+						</div>
+						<div class='main_game small_g_temporary fl rt pointer' id='small_g_4'>
+							<div class='main_game_fill_wrapper ab l_edge rt'>
+								<div class='main_game_fill ab'></div>
+							</div>
+							<div class='game_text_wrapper rac ab l_edge'>
+								<div class='game_text'>
+									Zelda
+								</div>
+							</div>
+							<div class='game_price game_price_small'>
+								5.99$
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class='second_games_block fl row jc_b'>
+					<div class='fl col jc_b'>
+						<div class='main_game small_g_temporary fl rt pointer' id='small_g_5'>
+							<div class='main_game_fill_wrapper ab l_edge rt'>
+								<div class='main_game_fill ab'></div>
+							</div>
+							<div class='game_text_wrapper rac ab l_edge'>
+								<div class='game_text'>
+									Zelda
+								</div>
+							</div>
+							<div class='game_price game_price_small ab' id='game_price_small_5'>
+								5.99$
+							</div>
+						</div>
+						<div class='main_game small_g fl rt pointer' id='small_g_6'>
+							<div class='main_game_fill_wrapper ab l_edge rt'>
+								<div class='main_game_fill ab'></div>
+							</div>
+							<div class='game_text_wrapper rac ab l_edge'>
+								<div class='game_text'>
+									Witcher 3: Wild Hunt
+								</div>
+							</div>
+							<div class='game_price game_price_small ab' id='game_price_small_6'>
+								5.99$
+							</div>
+						</div>
+					</div>
+					<div class='fl col jc_b'>
+						<div class='main_game small_g_temporary fl rt pointer' id='small_g_7'>
+							<div class='main_game_fill_wrapper ab l_edge rt'>
+								<div class='main_game_fill ab'></div>
+							</div>
+							<div class='game_text_wrapper rac ab l_edge'>
+								<div class='game_text'>
+									Zelda
+								</div>
+							</div>
+							<div class='game_price game_price_small ab' id='game_price_small_7'>
+								5.99$
+							</div>
+						</div>
+						<div class='main_game small_g fl rt pointer' id='small_g_8'>
+							<div class='main_game_fill_wrapper ab l_edge rt'>
+								<div class='main_game_fill ab'></div>
+							</div>
+							<div class='game_text_wrapper rac ab l_edge'>
+								<div class='game_text'>
+									Witcher 3: Wild Hunt
+								</div>
+							</div>
+							<div class='game_price game_price_small ab' id='game_price_small_8'>
+								5.99$
+							</div>
+						</div>
+					</div>
+					<div class='main_game big_g fl rt pointer' id='big_g_2'>
+						<div class='main_game_fill_wrapper ab l_edge rt'>
+							<div class='main_game_fill ab'></div>
+						</div>
+						<div class='game_text_wrapper rac ab l_edge'>
+							<div class='game_text'>
+								The Horadric Cube is a needed quest item in Act 2 and 3, as you must put together a number of quest items into a new item in able to finish the acts. The Cube's functions go well beyond those two quests, though.
+							</div>
+						</div>
+						<div class='game_price game_price_big ab' id='game_price_big_2'>
+							39.99$
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class='third_games_block fl row jc_b'>
+					<div class='main_game medium_g fl rt pointer' id='medium_g_1'>
+						<div class='main_game_fill_wrapper ab l_edge rt'>
+							<div class='main_game_fill ab'></div>
+						</div>
+						<div class='game_text_wrapper rac ab l_edge'>
+							<div class='game_text'>
+								 Overwatch
+							</div>
+						</div>
+						<div class='game_price game_price_medium ab' id='game_price_medium_1'>
+							49.99$
+						</div>
+					</div>
+					<div class='main_game medium_g_temporary fl rt pointer' id='medium_g_2'>
+						<div class='main_game_fill_wrapper ab l_edge rt'>
+							<div class='main_game_fill ab'></div>
+						</div>
+						<div class='game_text_wrapper rac ab l_edge'>
+							<div class='game_text'>
+								The Chronicles of Riddick: Escape from Butcher Bay
+							</div>
+						</div>
+						<div class='game_price game_price_medium ab' id='game_price_medium_2'>
+							49.99$
+						</div>
+					</div>
+					<div class='main_game medium_g fl rt pointer' id='medium_g_3'>
+						<div class='main_game_fill_wrapper ab l_edge rt'>
+							<div class='main_game_fill ab'></div>
+						</div>
+						<div class='game_text_wrapper rac ab l_edge'>
+							<div class='game_text'>
+								Overwatch
+							</div>
+						</div>
+						<div class='game_price game_price_medium ab' id='game_price_medium_3'>
+							49.99$
+						</div>
+					</div>
+				</div>
+				
+				<div class='forth_games_block fl row jc_b'>
+					<div class='main_game small_g fl rt pointer' id='small_g_9'>
+						<div class='main_game_fill_wrapper ab l_edge rt'>
+							<div class='main_game_fill ab'></div>
+						</div>
+						<div class='game_text_wrapper rac ab l_edge'>
+							<div class='game_text'>
+								Witcher 3: Wild Hunt
+							</div>
+						</div>
+						<div class='game_price game_price_small ab' id='game_price_small_9'>
+							5.99$
+						</div>
+					</div>
+					<div class='main_game small_g_temporary fl rt pointer' id='small_g_10'>
+						<div class='main_game_fill_wrapper ab l_edge rt'>
+							<div class='main_game_fill ab'></div>
+						</div>
+						<div class='game_text_wrapper rac ab l_edge'>
+							<div class='game_text'>
+								Zelda
+							</div>
+						</div>
+						<div class='game_price game_price_small ab' id='game_price_small_10'>
+							5.99$
+						</div>
+					</div>
+					<div class='main_game small_g_temporary fl rt pointer' id='small_g_11'>
+						<div class='main_game_fill_wrapper ab l_edge rt'>
+							<div class='main_game_fill ab'></div>
+						</div>
+						<div class='game_text_wrapper rac ab l_edge'>
+							<div class='game_text'>
+								Zelda
+							</div>
+						</div>
+						<div class='game_price game_price_small ab'>
+							5.99$
+						</div>
+					</div>
+					<div class='main_game small_g fl rt pointer' id='small_g_12'>
+						<div class='main_game_fill_wrapper ab l_edge rt'>
+							<div class='main_game_fill ab'></div>
+						</div>
+						<div class='game_text_wrapper rac ab l_edge'>
+							<div class='game_text'>
+								 Witcher 3: Wild Hunt
+							</div>
+						</div>
+						<div class='game_price game_price_small ab'>
+							5.99$
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class='stats_wrapper fl at_c jc_a'>
+			<div class='stats bold fl jc_a'>
+				<div class='stats_block fl'>
+					<div class='stats_values'>451</div>
+					<div class='stats_keys'>Registered users</div>
+				</div>
+				<div class='stats_block fl'>
+					<div class='stats_values'>1090</div>
+					<div class='stats_keys'>Purchases</div>
+				</div>
+				<div class='stats_block fl'>
+					<div class='stats_values'>14</div>
+					<div class='stats_keys'>Online</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class='subscribe_wrapper'>
+			<div class='subscribe'>
+				<div class='subscribe_box fl col at_c jc_b'>
+					<h2 class='subscribe_box_email white'>
+						EMAIL FOR NEWSLETTER
+					</h2>
+					<div class='subscribe_box_border'>
+					
+					</div>
+					<div class='subscribe_box_text align'>
+						Former Ninjas in Pyjamas and FaZe member Mikail "Maikelele" Bill will play for Red Reserve as a stand-in at the GeForce Cup. Placing second in their respective groups in the closed qualifier, K29, Vega Squadron, Quantum Bellator Fire, and pro100 finalized the team list for the CIS Minor, 
+						taking place in Moscow from June 8-11.
+					</div>
+					<div class='subscribe_box_form fl jc_a at_c'>
+						<div class='subscribe_box_form_text'>
+							<input type='email' class='p_20' placeholder='Enter your email adress'>
+						</div>
+						<div class='subscribe_box_form_btn'>
+							<input type='button' class='white pointer' value='SUBSCRIBE'>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+		<div class='footer_wrapper fl jc_a at_c col'>
+			<div class='footer fl col jc_a at_c'>
+				<div class='footer_logo sel'>
+					<a href='index.html'>
+						<img src='assets\images\footer\footer_logo.png'>
+					</a>
+				</div>
+				
+				<div class='footer_block fl jc_b at_c white'>
+					<a href='' class='white p_20'>About Us</a>
+						/
+					<a href='' class='white p_20'>F.A.Q.</a>
+						/
+					<a href='' class='white p_20'>Guarantee</a>
+						/
+					<a href='' class='white p_20'>About Nato</a>
+					
+				</div>
+				
+				<div class='footer_img_block sel'>
+					
+					<a href='' class='p_5'>
+						<img src='assets\images\footer\facebook_logo.png'>
+					</a>
+				
+					<a href='' class='p_5'>
+						<img src='assets\images\footer\twitter_logo.png'>
+					</a>
+				
+					<a href='' class='p_5'>
+						<img src='assets\images\footer\instagram_logo.png'>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class='terms_wrapper'>
+			<div class='terms fl jc_b at_c'>
+				<div class='terms_left fl at_c'>
+					<div class='fl col p_20'>
+						<div class='terms_left_text p_5'><a href=''>Terms & Condition</a></div>
+						<div class='terms_left_text p_5'><a href=''>Privacy Policy</a></div>
+						<div class='terms_left_text p_5'><a href=''>Contacts and Corporate information</a></div>
+					</div>
+				</div>
+				
+				<div class='company_wrapper as_e fl'>
+					<div class='company p_30 align'>
+						Copyright©2016 Kalev Company & V.I.C. group | Powered by Kalev Company & V.I.C.Group
+					</div>
+				</div>
+				
+				<div class='fl jc_a'>
+					<div class='kalev_logo pointer'></div>
+					<div class='vic_logo pointer'></div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+
+		
+		
+		
+	</div>
+	
+</body>

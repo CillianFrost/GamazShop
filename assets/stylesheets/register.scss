@@ -1,0 +1,95 @@
+.register {
+	top: 6px;
+	right: 12px;
+	width: 250px;
+	height: 190px;
+}
+
+.register_screen{
+	background: white;
+	/* box-shadow: 0 0 2px #949494; */
+	margin-right: 12px;
+	height: 190px;
+}
+
+.register_screen_form{
+	height: 120px;
+}
+
+.register_fields_img{
+	
+}
+
+.register_fields_blocks{
+	
+}
+
+.register_screen_forms {
+	border: 1px #eaeaea groove;
+	color: #949494;
+	font-size: 12px;
+}
+
+.register_button{
+	height: 35px;
+}
+
+.register_btn {
+	color: #d1ddeb;
+	background-color: #0067ae;
+	border-radius: 6px;
+	padding: 4px 15px;
+	font-size: 12px;
+	&:hover{
+	background-color: #0047ae;
+	box-shadow: 0 0 1px #0067ae;
+	}
+}
+
+@mixin size($x, $y){
+	width: $x;
+	height: $y;
+}
+
+.register_screen_name{
+	background-image: url(../images/social/register/1.png);
+	@include size(20px, 24px);
+}
+.register_screen_mail{
+	background-image: url(../images/social/register/2.png);
+	@include size(20px, 16px);
+}
+.register_screen_password{
+	background-image: url(../images/social/register/3.png);
+	@include size(19px, 24px);
+}
+.register_screen_google{
+	background-image: url(../images/social/register/4.png);
+	@include size(29px, 29px);
+}
+.register_screen_twitter{
+	background-image: url(../images/social/register/5.png);
+	@include size(29px, 29px);
+}
+.register_screen_facebook{
+	background-image: url(../images/social/register/6.png);
+	@include size(29px, 29px);
+}
+
+
+
+.login_social {
+	
+}
+
+.login_social_text {
+	
+}
+
+.login_social_icons {
+	
+}
+
+.login_social{
+
+}

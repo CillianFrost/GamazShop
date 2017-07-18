@@ -1,0 +1,18 @@
+.stats_wrapper {
+  min-width: 1120px; }
+
+.stats {
+  width: 1194px;
+  font-size: 28px; }
+
+.stats_block {
+  margin: 5px 0; }
+
+.stats_values {
+  color: #545253;
+  margin-right: 5px; }
+
+.stats_keys {
+  color: #cdcdcb; }
+
+/*# sourceMappingURL=stats.css.map */

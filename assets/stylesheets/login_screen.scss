@@ -1,0 +1,103 @@
+@mixin header_right_modal_icons($width, $height){
+	width: $width;
+	height: $height;
+}
+
+.login_screen{
+	top: 6px;
+	right: 12px;
+	width: 350px;
+	height: 80px;
+	background-color: white;
+}
+
+.login_screen_social{
+	width: 10%;
+}
+
+.social_gplus{
+	background-image: url(../images/social/google.png);
+	@include header_right_modal_icons(22px, 22px);
+}
+
+.social_twitter{
+	background-image: url(../images/social/twitter.png);
+	@include header_right_modal_icons(22px, 22px);
+}
+
+.social_fb{
+	background-image: url(../images/social/fb.png);
+	@include header_right_modal_icons(22px, 22px);
+}
+
+.login_screen_line_wrapper{
+	width: 7%;
+}
+
+.login_screen_line{
+	width: 1px;
+	background-color: #cccccc;
+	height: 80%;
+}
+
+.social_name{
+	background-image: url(../images/social/name.png);
+	@include header_right_modal_icons(23px, 24px);
+}
+
+.social_password{
+	background-image: url(../images/social/password.png);
+	@include header_right_modal_icons(22px, 24px);
+}
+
+.social_out{
+	background-image: url(../images/social/out.png);
+	@include header_right_modal_icons(40px, 34px);
+}
+
+.login_screen_form{
+	font-size: 12px;
+	width: 60%;
+}
+
+.login_screen_forgot{
+	
+}
+
+.i_forgot a{
+	color: black;
+	&:hover{
+		color: red;
+	}
+}
+
+.social_login_out{
+	width: 21%;
+}
+
+.social_out{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.login_screen_login_form_wrapper{
+	width: 100%;
+	margin-left: 5px;
+}
+
+.login_screen_password_form_wrapper{
+	width: 100%;
+	margin-left: 5px;
+}
+
+.login_screen_login_form{
+	border: 1px #e9e9e9 solid;
+	border-radius: 3px;
+	width: 90%;
+}
+
+.login_screen_password_form{
+	border: 1px #e9e9e9 solid;
+	border-radius: 3px;
+	width: 90%;
+}

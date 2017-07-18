@@ -1,0 +1,64 @@
+.register {
+  top: 6px;
+  right: 12px;
+  width: 250px;
+  height: 190px; }
+
+.register_screen {
+  background: white;
+  /* box-shadow: 0 0 2px #949494; */
+  margin-right: 12px;
+  height: 190px; }
+
+.register_screen_form {
+  height: 120px; }
+
+.register_screen_forms {
+  border: 1px #eaeaea groove;
+  color: #949494;
+  font-size: 12px; }
+
+.register_button {
+  height: 35px; }
+
+.register_btn {
+  color: #d1ddeb;
+  background-color: #0067ae;
+  border-radius: 6px;
+  padding: 4px 15px;
+  font-size: 12px; }
+  .register_btn:hover {
+    background-color: #0047ae;
+    box-shadow: 0 0 1px #0067ae; }
+
+.register_screen_name {
+  background-image: url(../images/social/register/1.png);
+  width: 20px;
+  height: 24px; }
+
+.register_screen_mail {
+  background-image: url(../images/social/register/2.png);
+  width: 20px;
+  height: 16px; }
+
+.register_screen_password {
+  background-image: url(../images/social/register/3.png);
+  width: 19px;
+  height: 24px; }
+
+.register_screen_google {
+  background-image: url(../images/social/register/4.png);
+  width: 29px;
+  height: 29px; }
+
+.register_screen_twitter {
+  background-image: url(../images/social/register/5.png);
+  width: 29px;
+  height: 29px; }
+
+.register_screen_facebook {
+  background-image: url(../images/social/register/6.png);
+  width: 29px;
+  height: 29px; }
+
+/*# sourceMappingURL=register.css.map */

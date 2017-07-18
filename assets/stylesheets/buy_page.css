@@ -1,0 +1,150 @@
+.buy_game_bg_wrapper {
+  min-width: 1120px;
+  z-index: 1;
+  width: 100%; }
+
+.buy_game_bg_section {
+  height: 725px;
+  overflow: hidden; }
+
+.buy_game_bg {
+  background-image: url(../images/buy_page/overwatch.png);
+  background-position-y: -55px;
+  background-size: cover;
+  height: 1080px;
+  width: 1920px; }
+
+.buy_game_bg_figure {
+  background: #ffffff;
+  bottom: -1.5%;
+  left: 3%;
+  transform: perspective(200px) rotateX(45deg);
+  width: 22%;
+  height: 60px;
+  border-radius: 10px; }
+
+.buy_game_bg_text {
+  bottom: .5%;
+  left: 3%;
+  font-size: 22px;
+  width: 22%;
+  height: 30px; }
+
+.buy_game_info_wrapper {
+  min-width: 1120px;
+  width: 100%;
+  min-height: 350px;
+  background-color: white; }
+
+.buy_game_info {
+  width: 45%; }
+
+.buy_game_info_navigation {
+  width: 550px;
+  height: 55px;
+  font-size: 20px;
+  background-color: white; }
+
+.buy_game_des_wrapper {
+  min-height: 100%;
+  width: 100%;
+  min-width: 1120px;
+  background-color: white; }
+
+.buy_game_des_wrapper p {
+  margin-top: .5em;
+  margin-bottom: 1em;
+  font-size: 20px; }
+
+.buy_game_des_wrapper a {
+  color: black; }
+  .buy_game_des_wrapper a:hover {
+    color: blue; }
+
+.buy_game_des_block {
+  height: 700px;
+  width: 65%; }
+
+.k_i_wrapper {
+  min-height: 100%;
+  width: 100%;
+  min-width: 1120px;
+  background-color: white; }
+
+.k_i_container {
+  min-width: 1120px;
+  max-width: 1920px; }
+
+.k_i_content {
+  width: 75%;
+  min-width: 1000px; }
+
+.k_i_info {
+  width: 90%;
+  font-size: 20px; }
+
+.k_i_info_titles {
+  text-align: right;
+  margin-right: 15px; }
+
+.k_i_info2 {
+  width: 90%;
+  font-size: 20px; }
+
+.k_i_info2_button_wrapper {
+  width: 143px; }
+
+.k_i_info_button {
+  font-size: 26px;
+  color: white;
+  background-color: #ff8a00;
+  border-radius: 10px;
+  padding: 5px 20px; }
+
+.k_i_info_2_price {
+  width: 102px;
+  text-align: right; }
+
+.k_i_text2_link {
+  color: #ff8a00; }
+
+.k_i_container_for_poloska {
+  width: 302px; }
+
+.k_i_info_poloska {
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background-color: #b2b2b2; }
+
+.k_i_info_3 {
+  width: 500px; }
+
+.k_i_info_3_text_wrapper {
+  width: 400px; }
+
+.k_i_info_3_text {
+  border: 1px black solid;
+  border-radius: 6px;
+  padding: 20px 15px; }
+
+.k_i_info_3_img_wrapper {
+  width: 80px; }
+
+.k_i_info_3_img {
+  background-image: url(../images/buy_page/vosklicai.png);
+  width: 35px;
+  height: 35px; }
+
+.buy_game_buy_button {
+  font-size: 20px;
+  color: white;
+  background-color: #ff8a00;
+  border-radius: 10px;
+  padding: 5px 20px; }
+
+/* TABS */
+.buy_game_border_black {
+  border-bottom: 1px black solid; }
+
+/*# sourceMappingURL=buy_page.css.map */

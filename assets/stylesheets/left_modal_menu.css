@@ -1,0 +1,176 @@
+.left_modal_menu {
+  width: 400px;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.25);
+  border-top: 12px #0067ae solid; }
+
+.menu_block {
+  height: 100px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; }
+
+.menu_logo_wrapper {
+  width: 60px;
+  height: 100px; }
+
+.menu_menu_wrapper {
+  height: 100px;
+  width: 250px; }
+
+.menu_menu {
+  font-size: 24px;
+  color: #cacaca; }
+
+.arrow {
+  height: 100px;
+  width: 50px; }
+
+.menu_title_wrapper {
+  height: 40px; }
+
+.menu_title {
+  color: #e6e6e6;
+  font-size: 20px; }
+
+.left_modal_menu_sign_in {
+  height: 60px;
+  font-size: 24px;
+  color: #0067ae; }
+
+.nav_list {
+  height: 250px;
+  width: 70%; }
+
+.nav_list_2 {
+  height: 200px;
+  width: 70%;
+  margin-bottom: 20px; }
+
+.nav_list a {
+  color: black; }
+
+.nav_list_2 a {
+  color: black; }
+
+.nav_icon {
+  width: 30%; }
+
+.sec_radio_wrapper {
+  width: 45%; }
+
+.menu_line {
+  height: 1px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #cccccc; }
+
+.last_menu {
+  height: 40px;
+  width: 70%; }
+
+.menu_diamond_wrapper {
+  width: 35%; }
+
+.menu_diamond {
+  background-image: url(../images/left_panel/diamond.png);
+  width: 33px;
+  height: 27px; }
+
+.menu_diamond_text {
+  color: #6a6868; }
+
+.diamond_radio_wrapper {
+  color: #d0d0d0; }
+
+.radio_text_on {
+  color: #0066ae; }
+
+.nav_link_home:hover .menu_home {
+  background-image: url(../images/left_panel/domik2.png); }
+
+.menu_home {
+  background-image: url(../images/left_panel/domik.png);
+  width: 27px;
+  height: 21px; }
+
+.menu_home_disable {
+  background-image: url(../images/left_panel/domik.png);
+  width: 27px;
+  height: 21px; }
+
+.nav_link_about:hover .menu_about {
+  background-image: url(../images/left_panel/people2.png); }
+
+.menu_about {
+  background-image: url(../images/left_panel/people.png);
+  width: 27px;
+  height: 25px; }
+
+.nav_link_faq:hover .menu_faq {
+  background-image: url(../images/left_panel/dialog2.png); }
+
+.menu_faq {
+  background-image: url(../images/left_panel/dialog.png);
+  width: 27px;
+  height: 21px; }
+
+.nav_link_guarantee:hover .menu_guar {
+  background-image: url(../images/left_panel/list2.png); }
+
+.menu_guar {
+  background-image: url(../images/left_panel/list.png);
+  width: 23px;
+  height: 27px; }
+
+.nav_link_nato:hover .menu_nato {
+  background-image: url(../images/left_panel/man22.png); }
+
+.menu_nato {
+  background-image: url(../images/left_panel/man.png);
+  width: 21px;
+  height: 27px; }
+
+.menu_dash {
+  background-image: url(../images/left_panel/man2.png);
+  width: 27px;
+  height: 27px; }
+
+.menu_edit {
+  background-image: url(../images/left_panel/man3.png);
+  width: 27px;
+  height: 20px; }
+
+.menu_sec {
+  background-image: url(../images/left_panel/shield.png);
+  width: 21px;
+  height: 26px; }
+
+.menu_trans {
+  background-image: url(../images/left_panel/card.png);
+  width: 27px;
+  height: 21px; }
+
+.on_off {
+  background-image: url(../images/left_panel/on.png);
+  width: 41px;
+  height: 26px;
+  margin: 0 5px; }
+
+.on_off_cheked {
+  background-image: url(../images/left_panel/off.png);
+  width: 41px;
+  height: 26px;
+  margin: 0 5px; }
+
+.sec_radio {
+  background-image: url(../images/left_panel/on2.png);
+  width: 41px;
+  height: 25px; }
+
+.sec_radio_cheked {
+  background-image: url(../images/left_panel/off2.png);
+  width: 41px;
+  height: 25px; }
+
+/*# sourceMappingURL=left_modal_menu.css.map */

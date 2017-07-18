@@ -1,0 +1,42 @@
+.terms_wrapper {
+  min-width: 1120px; }
+
+.terms {
+  height: 130px;
+  background-color: #222222; }
+
+.terms_left {
+  font-style: italic; }
+
+.terms_left a {
+  color: #393939; }
+
+.terms_left a:hover {
+  color: #d9d9d9; }
+
+company_wrapper {
+  width: 65%; }
+
+.company {
+  color: #ccccca; }
+
+.kalev_logo {
+  background-image: url(../images/footer/comp-1.png);
+  width: 99px;
+  height: 77px;
+  background-size: cover;
+  margin-right: 10px; }
+
+.kalev_logo:hover {
+  background-image: url(../images/footer/kalev_logo.png); }
+
+.vic_logo {
+  background-image: url(../images/footer/VIC_logo.png);
+  width: 126px;
+  height: 77px;
+  background-size: cover; }
+
+.vic_logo:hover {
+  background-image: url(../images/footer/comp-2-h.png); }
+
+/*# sourceMappingURL=terms.css.map */
